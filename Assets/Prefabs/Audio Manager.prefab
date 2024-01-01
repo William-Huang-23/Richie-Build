@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6984402190604173285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6984402190604173275}
+  - component: {fileID: 6984402190604173284}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6984402190604173275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984402190604173285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6984402190604173284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984402190604173285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb6b5ce02c5d4b438f4d7f213aeb02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound_list:
+  - name: Button Sound
+    clip: {fileID: 8300000, guid: d001ae095162e954f8d508242240d3cf, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Keyboard Click
+    clip: {fileID: 8300000, guid: 757e737ebae827741ade7a7a16f03edb, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Forest Ambience
+    clip: {fileID: 8300000, guid: 5569067916bf837478a2274356cf306d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: River Sound
+    clip: {fileID: 8300000, guid: 6f559754936f8ac45a8c05d71c638df8, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+  - name: Correct
+    clip: {fileID: 8300000, guid: d81d4e1bdea29a841ac69022d0ddb674, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Wrong
+    clip: {fileID: 8300000, guid: c1e98f41884e65c4fafddc2a210ed158, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Countdown
+    clip: {fileID: 8300000, guid: 336fc43d408c7444d8fdb6bcc4f3f63d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Break
+    clip: {fileID: 8300000, guid: 88671bbbc352039488a6b6a0d5730471, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Fix
+    clip: {fileID: 8300000, guid: fda766b9442803746bcf44963ea48946, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: e2fbb02ebd503aa4c8e6fc71c10c2830, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: b3121906be54e3346acbaa9b05021e16, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Shield
+    clip: {fileID: 8300000, guid: 9cd21edb89d8cc84f9f2719b88516dcd, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Decay
+    clip: {fileID: 8300000, guid: 59f8133a866e40e46be49eb371b8b6bc, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: In Game
+    clip: {fileID: 8300000, guid: 7f22b5778841b07478405fe2785d06eb, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Cutscene BGM
+    clip: {fileID: 8300000, guid: 79c28fefe64048c41bc5a433075c0d45, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Panic
+    clip: {fileID: 8300000, guid: d69053fc688235049bdfe4af74c40fc7, type: 3}
+    volume: 1
+    source: {fileID: 0}
